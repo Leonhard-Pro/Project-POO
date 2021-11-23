@@ -11,3 +11,5 @@ int __clrcall WinMain(array<String^>^ args)
 	Project::MyForm monFormulaire;
 	Application::Run(% monFormulaire);
 }
+
+//voici ma modif
