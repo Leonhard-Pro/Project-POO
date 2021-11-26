@@ -120,12 +120,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Cad.cpp" />
     <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="Services.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Cad.h" />
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Services.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

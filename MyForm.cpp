@@ -8,8 +8,6 @@ int __clrcall WinMain(array<String^>^ args)
 {
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
-	Project::MyForm monFormulaire;
+	projet::MyForm monFormulaire;
 	Application::Run(% monFormulaire);
 }
-
-//voici ma modif
